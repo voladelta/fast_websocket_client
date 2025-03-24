@@ -16,7 +16,7 @@ name = "wss_client"
 path = "examples/wss_client.rs"
 
 [dependencies]
-fastwebsockets = { version = "0.6", features = ["simd", "upgrade"] }
+fastwebsockets = { version = "0.10", features = ["simd", "upgrade"] }
 http-body-util = "0"
 hyper = "1"
 hyper-util = "0"
@@ -25,7 +25,7 @@ serde = "1"
 serde_json = "1"
 simdutf8 = { version = "0", features = ["aarch64_neon"] }
 tokio = { version = "1", default-features = false, features = ["net", "parking_lot", "rt"] }
-tokio-rustls = "0.25"
+tokio-rustls = "0.26"
 url = "2"
 utf-8 = "0"
 webpki-roots = "0"
